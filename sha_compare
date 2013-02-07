@@ -1,0 +1,17 @@
+#! /usr/bin/env node
+
+var fs = require('fs'),
+    exec = require('exec-sync'),
+    colors = require('colors'),
+    _ = require('lodash'),
+    c = process.stdout.write,
+    a = process.argv[2];
+
+if (!a){ return; }
+
+console.log('');
+console.log(exec('./sha.py \'' + a +'\'').blue);
+console.log(exec('./sha.php \'' + a +'\'').green);
+console.log(exec('java sha \'' + a +'\'').red);
+console.log('');
+

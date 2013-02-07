@@ -1,0 +1,10 @@
+{
+  "name": "sha_compare",
+  "version": "0.0.1",
+  "dependencies": {
+    "exec-sync": "*",
+    "colors": "*",
+    "lodash":"*"r
+  },
+  "engines": { "node": "0.8.18"}
+}
