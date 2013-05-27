@@ -4,7 +4,7 @@
   "dependencies": {
     "exec-sync": "*",
     "colors": "*",
-    "lodash":"*"r
+    "lodash":"*"
   },
   "engines": { "node": "0.8.18"}
 }
